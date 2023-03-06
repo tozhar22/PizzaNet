@@ -1,2 +1,4 @@
 
-alert('Le ptit Josias');
+var div = document.querySelector('.prix');
+
+console.log
