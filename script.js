@@ -1,4 +1,4 @@
 
 var div = document.querySelector('.prix');
 
-console.log
+console.log(div);
