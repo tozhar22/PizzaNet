@@ -2,15 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
-
+   
 }
 header{
     display: flex;
     justify-content: space-between;
 }
-
+body{
+    margin: auto;
+}
 nav{
     display: flex;
+}
+#modenuit img{
+    width: 25px;
+    margin-left: 5px;
+    margin-top: 2px;
+    border-radius: 10px;
 }
 a{
     text-decoration: none;
@@ -172,7 +180,26 @@ input{
 #logo-foot{
     width: 200px;
 }
+#lien{
+    width: 180px;
+    display: inline-block;
+}
 #lien img{
     width: 40px;
-    margin-right: 5px;
+    padding-right: 5px;
+   
+}
+#lien img :hover{
+   cursor: pointer;
+}
+#modenuit{
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#modenuit:hover{
+    cursor: pointer;
 }
