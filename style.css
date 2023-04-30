@@ -4,6 +4,9 @@
     font-family: 'Roboto', sans-serif;
 
 }
+body{
+    margin: auto;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -65,6 +68,14 @@ nav>a:hover{
     padding-left: 16px;
     border: 1px solid #630808;
 }
+.button:hover{
+    transition: all 0.5s ease 0s;
+    background-color: #630808;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 12px;
+    padding-left: 16px;
+}
 section{
     margin-top: 2em;
     margin-bottom: 2.5em;
@@ -109,7 +120,7 @@ section>p{
     width: 90px;
     height: 90px;
     top: 840px;
-    margin-left: 310px;
+    margin-left: 290px;
 }
 span{
     font-size: 22px;
@@ -137,34 +148,9 @@ footer{
     padding: 50px;
     justify-content: space-between;
 }
-#formulaire{
-    display:flex;
-    flex-direction: column;
-}
-textarea{
-    background-color: #630808;
-    border-radius: 50px;
-    border: 2px solid white;
-    padding: 0.6em;
-    text-indent: 10px;
-    margin-bottom: 2em;
-}
-input{
-    background-color: #630808;
-    width:150px ;
-    border: 2px solid white;
-    border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 30px;
-}
-#formulaire>button{
-    background-color: #ffff;
-    border: 1px solid #ffff;
-    border-radius: 20px;
-    width: 100px;
-    color: #630808;
-    font-weight: 700;
-    padding: 1em;
+#p-contact{
+    padding: 15px;
+    font-size: 17px;
 }
 #sociale{
     margin-top: 100px;
@@ -175,4 +161,50 @@ input{
 #lien img{
     width: 40px;
     margin-right: 5px;
+}
+                                        /* Page contact */
+
+
+
+
+form{
+    display: flex;
+    margin-left: 30em;
+}
+#nom{
+    background-color: white;
+    border: 1px solid black;
+    padding: 18px 25px;
+}
+#email{
+    background-color: white;
+    border: 1px solid black;
+    padding: 18px 25px;
+}
+#objet{
+    background-color: white;
+    border: 1px solid black;
+    padding: 18px 25px;
+}
+textarea{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 4em;
+}
+#button{
+    background-color: #630808;
+    color: white;
+    border: 0;
+    padding: 15px 20px 15px 20px;
+    margin-left: 57em;
+    cursor: pointer;
+    border: 2px #630808 solid;
+    font-size: 15px;
+    font-weight: 500;
+}
+#button:hover{
+    transition: all 0.5s;
+    background-color: white;
+    color: #630808;
 }
