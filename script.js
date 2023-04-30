@@ -20,7 +20,10 @@ mode.addEventListener('click',function(){
         navigation[0].style.color="#000";
         navigation[1].style.color="#000";
         navigation[2].style.color="#000";
-        soleil.setAttribute('src',"assets/claire.jpg");  
+        soleil.setAttribute('src',"assets/claire.jpg");
+        soleil.style.backgroundColor="#fff";
+        soleil.style.transform = "translateX(0px)";
+        soleil.style.transitionDuration = ".5s";
         semaine.style.color="#000";
         mode.style.backgroundColor="#000";
         modenuit = false;
@@ -33,6 +36,8 @@ mode.addEventListener('click',function(){
         navigation[1].style.color="#fff";
         navigation[2].style.color="#fff";
         soleil.setAttribute('src',"assets/soleil.png");  
+        soleil.style.transform = "translateX(60px)";
+        soleil.style.transitionDuration = ".5s";
         semaine.style.color="#fff";
         mode.style.backgroundColor="#fff";
         modenuit = true;
