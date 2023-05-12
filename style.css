@@ -25,13 +25,13 @@ li>a{
     color: #000;
     font-size: 25px;
     margin-right: 20px;
-    transition-duration: .2s;
     border-bottom: 0px solid #630808;
 }
 li>a:hover{
     color: #630808;
     border-bottom: 5px solid #630808;
     transition-duration: .0.5s;
+    transition-duration: .2s;
 }
 #modenuit img{
     width: 25px;

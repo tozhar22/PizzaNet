@@ -26,6 +26,7 @@ mode.addEventListener('click',function(){
         soleil.style.transitionDuration = ".5s";
         semaine.style.color="#000";
         mode.style.backgroundColor="#000";
+        mode.style.transitionDuration = "2s";
         modenuit = false;
     } else {
         centre.style.backgroundColor="#0F0F0F";
@@ -40,6 +41,7 @@ mode.addEventListener('click',function(){
         soleil.style.transitionDuration = ".5s";
         semaine.style.color="#fff";
         mode.style.backgroundColor="#fff";
+        mode.style.transitionDuration = "2s";
         modenuit = true;
     }
 }, false);
