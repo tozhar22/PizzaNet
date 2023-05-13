@@ -69,12 +69,8 @@ nav>a:hover{
     border: 1px solid #630808;
 }
 .button:hover{
-    transition: all 0.5s ease 0s;
-    background-color: #630808;
-    font-size: 19px;
-    border-radius: 20px;
-    padding: 12px;
-    padding-left: 16px;
+    transition: all 1s ease 0s;
+    transform: rotate(720deg);
 }
 section{
     margin-top: 2em;
@@ -121,6 +117,10 @@ section>p{
     height: 90px;
     top: 840px;
     margin-left: 290px;
+}
+.prix:hover{
+    transition: 0.5s;
+    transform: scale(2.0);
 }
 span{
     font-size: 22px;
