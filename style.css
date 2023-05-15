@@ -213,3 +213,14 @@ input{
 #modenuit:hover{
     cursor: pointer;
 }
+/* ----------SLIDER--------------------*/
+#livrer{
+    display: flex;
+    background-color: #FFB152;
+} 
+#livrer > img{
+    width: 10%;
+}
+#tr-livre{
+    text-align: center;
+}
