@@ -217,10 +217,27 @@ input{
 #livrer{
     display: flex;
     background-color: #FFB152;
+    justify-content: space-around;
+    padding: 2em;
 } 
 #livrer > img{
     width: 10%;
 }
+#precedent{
+    font-size: 100px;
+    position: absolute;
+    
+}
+#suivant{
+    font-size : 100px;
+    position: absolute;
+    
+}
 #tr-livre{
-    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+#p-livre{
+    font-size: 21px;
+    text-align: justify;
 }
